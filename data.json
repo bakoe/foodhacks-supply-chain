@@ -15,7 +15,7 @@
                       "description": "Rutenbeck 5, 21640 Bliedersdorf",
                       "marker-color": "#000000",
                       "marker-size": "large",
-                      "marker-symbol": "1"
+                      "marker-symbol": "monument"
                     }
                 },
                 {
@@ -41,6 +41,70 @@
                     "properties": {
                       "title": "Logistic Center",
                       "description": "Märkische Allee 85, 14979 Großbeeren",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "monument"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [13.393173599999955,52.50523399999999]
+                    },
+                    "properties": {
+                      "title": "Grocery Store",
+                      "description": "Charlottenstraße 2, 10969 Berlin",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "monument"
+                    }
+                }
+            ]
+        }
+    },
+	{
+        "id": 2,
+        "geojson": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [11.250972400000000,46.529022]
+                    },
+                    "properties": {
+                      "title": "Farmer",
+                      "description": "Via Jakobi, 1A Bozen, IT",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "monument"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [11.37083430000000,46.4950641]
+                    },
+                    "properties": {
+                      "title": "Producer Organisation",
+                      "description": "Bozner Boden, Mitterweg 12, Bozen, IT",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "monument"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [9.665480000000000,49.19741]
+                    },
+                    "properties": {
+                      "title": "Logistic Center",
+                      "description": "Max-Eyth-Straße 13, 74638 Waldenburg",
                       "marker-color": "#000000",
                       "marker-size": "large",
                       "marker-symbol": "monument"

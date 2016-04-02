@@ -7,12 +7,12 @@ $(document).ready(function() {
 	L.mapbox.accessToken = 'pk.eyJ1IjoiaGFuZGNvZGVkIiwiYSI6ImNpbWoxN2VzdDAwMGt2dW00aHVvOTNnZXMifQ.qlhvpqfP_H8e6E8hxCoCdw';
 
 	var geojson = [];
-	var productid = getURLParameter('productid');
+	var productId = getURLParameter('productId');
 
 	$.getJSON('data.json', function(data) {
 		for (var i = 0; i < data.length; i++) {
-			var id = data[i].id;
-			if (id == productid) {
+
+			if (data[i].id == productId) {
 				geojson = data[i].geojson;
 			}
 		}
