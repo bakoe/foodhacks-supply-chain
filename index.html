@@ -6,15 +6,30 @@
         <title>Titel</title>
 		<script type="text/javascript" src="data.json"></script>
         <script src="jquery/dist/jquery-2.2.2.js"></script>
-        <script src="semantic/dist/semantic.min.js"></script>
+        <script src="semantic/dist/semantic.js"></script>
         <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
-        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
-        <div id="map"></div>
 
+        <div id="map-container">
+            <div id="map"></div>
+            <div class="ui items info-overlay">
+                <div class="item">
+                    <div class="image product-image">
+                        <img class="ui fluid image" src="resources/images/apples_400.png" alt="Apples" />
+                    </div>
+                    <div class="content">
+                        <div class="header">Tafeläpfel</div>
+                        <div class="meta">
+                            Lorem ipsum
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script>
             L.mapbox.accessToken = 'pk.eyJ1IjoiaGFuZGNvZGVkIiwiYSI6ImNpbWoxN2VzdDAwMGt2dW00aHVvOTNnZXMifQ.qlhvpqfP_H8e6E8hxCoCdw';
