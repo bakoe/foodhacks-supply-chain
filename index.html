@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Titel</title>
-		<script type="text/javascript" src="data.json"></script>
+        <title>traceyourfood</title>
         <script src="jquery/dist/jquery-2.2.2.js"></script>
         <script src="semantic/dist/semantic.js"></script>
         <script src='https://api.tiles.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
@@ -31,16 +30,6 @@
             </div>
         </div>
 
-        <script>
-            L.mapbox.accessToken = 'pk.eyJ1IjoiaGFuZGNvZGVkIiwiYSI6ImNpbWoxN2VzdDAwMGt2dW00aHVvOTNnZXMifQ.qlhvpqfP_H8e6E8hxCoCdw';
-
-			var geojson = [];
-
-            var map = L.mapbox.map('map', 'mapbox.streets')
-                .setView([52.5055829, 13.3932478], 3)
-				.featureLayer.setGeoJSON(geojson);
-
-			L.mapbox.styleLayer('mapbox://styles/handcoded/cimj399zn00a9cem33b5cubif').addTo(map);
-        </script>
+        <script src="js/main.js"></script>
     </body>
 </html>

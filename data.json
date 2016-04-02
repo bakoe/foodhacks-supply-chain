@@ -1,38 +1,66 @@
 [
-	{
-		"id": 1234,
-		"content": {
-			"type": "FeatureCollection",
-			"features": [
-				{
-					"type": "Feature",
-				    "geometry": {
-				      "type": "Point",
-				      "coordinates": [53.4655171,9.566544399999998]
-				    },
-				    "properties": {
-				      "title": "Mapbox DC",
-				      "description": "1714 14th St NW, Washington DC",
-				      "marker-color": "#fc4353",
-				      "marker-size": "large",
-				      "marker-symbol": "monument"
-				    }
-				},
-				{
-					"type": "Feature",
-				    "geometry": {
-				      "type": "Point",
-				      "coordinates": [-77.03238901390978,38.913188059745586]
-				    },
-				    "properties": {
-				      "title": "Mapbox DC",
-				      "description": "1714 14th St NW, Washington DC",
-				      "marker-color": "#fc4353",
-				      "marker-size": "large",
-				      "marker-symbol": "monument"
-				    }
-				}
-			]
-		}
-	}
+    {
+        "id": 1,
+        "geojson": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [9.566544399999998,53.4655171]
+                    },
+                    "properties": {
+                      "title": "Farmer",
+                      "description": "Rutenbeck 5, 21640 Bliedersdorf",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "1"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [9.61081999999999,53.43915]
+                    },
+                    "properties": {
+                      "title": "Producer Organisation",
+                      "description": "Stader Str. 41, 21641 Apensen",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "monument"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [13.289009999999962,52.3561]
+                    },
+                    "properties": {
+                      "title": "Logistic Center",
+                      "description": "Märkische Allee 85, 14979 Großbeeren",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "monument"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [13.393173599999955,52.50523399999999]
+                    },
+                    "properties": {
+                      "title": "Grocery Store",
+                      "description": "Charlottenstraße 2, 10969 Berlin",
+                      "marker-color": "#000000",
+                      "marker-size": "large",
+                      "marker-symbol": "monument"
+                    }
+                }
+            ]
+        }
+    }
 ]
