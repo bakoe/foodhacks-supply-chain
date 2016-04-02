@@ -2,9 +2,68 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #map {
     position: absolute; 
     top: 0; 
     bottom: 0; 
     width: 100%;
+}
+
+.info-overlay {
+    background-color: white;
+    width: 80%;
+    height: auto;
+    max-width: 600px;
+    left: 46px; /* 10px + 26px (width of leaflet-control-zoom-*) + 10px */
+    top: 10px;
+    position: relative;
+    padding: 1em;
+    border-radius: 0.4em;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: rgba(255, 255, 255, 0.4) 0 0 4px;
+}
+
+.product-image {
+    width: 4em;
+    height: 4em;
+}
+
+.ui.items {
+    margin-top: 0;
+}
+
+/* RESPONSIVENESS */
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .ui.items > .item {
+      -webkit-box-orient: initial;
+      -webkit-box-direction: initial;
+      -webkit-flex-direction: initial;
+      -ms-flex-direction: initial;
+      flex-direction: initial;
+    }
+    .ui.items>.item>.image+.content {
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    .ui.items>.item>.image, .ui.items>.item>.image>img {
+        max-height: 54px!important;
+    }
+}
+
+/* Mobile and Tablet */
+@media only screen and (max-width: 991px) {
+}
+
+/* Small Monitor and Large Monitor */
+@media only screen and (min-width: 992px) {
+    .info-overlay {
+        padding: 2em;
+    }
+    .product-image {
+        width: 10em;
+        height: 10em;
+    }
 }
