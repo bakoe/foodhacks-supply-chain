@@ -20,8 +20,7 @@ body {
     position: relative;
     padding: 1em;
     border-radius: 0.4em;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    box-shadow: rgba(255, 255, 255, 0.4) 0 0 4px;
+    box-shadow: rgba(0, 0, 0, 0.33) 0 4px 10px;
 }
 
 .product-image {
@@ -49,6 +48,13 @@ body {
     }
     .ui.items>.item>.image, .ui.items>.item>.image>img {
         max-height: 54px!important;
+    }
+}
+
+/* Mobile and everything above */
+@media only screen and (min-width: 768px) {
+    .dropdown.icon:before {
+        display: none;
     }
 }
 

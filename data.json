@@ -1,6 +1,8 @@
 [
     {
         "id": 1,
+        "origin": "DE",
+        "distance": "200-500 km",
         "geojson": {
             "type": "FeatureCollection",
             "features": [
@@ -63,8 +65,11 @@
             ]
         }
     },
-	{
+    {
         "id": 2,
+        "name": "Braeburn",
+        "origin": "IT",
+        "distance": "900-1200 km",
         "geojson": {
             "type": "FeatureCollection",
             "features": [
