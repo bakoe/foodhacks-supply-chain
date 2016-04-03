@@ -12,10 +12,10 @@
                     },
                     "properties": {
                       "title": "Farmer",
-                      "description": "Rutenbeck 5, 21640 Bliedersdorf",
+					  "description": "Rutenbeck 5, 21640 Bliedersdorf",
                       "marker-color": "#000000",
                       "marker-size": "large",
-                      "marker-symbol": "monument"
+                      "marker-symbol": "farm"
                     }
                 },
                 {
@@ -29,7 +29,7 @@
                       "description": "Stader Str. 41, 21641 Apensen",
                       "marker-color": "#000000",
                       "marker-size": "large",
-                      "marker-symbol": "monument"
+                      "marker-symbol": "warehouse"
                     }
                 },
                 {
@@ -43,7 +43,7 @@
                       "description": "Märkische Allee 85, 14979 Großbeeren",
                       "marker-color": "#000000",
                       "marker-size": "large",
-                      "marker-symbol": "monument"
+                      "marker-symbol": "ferry"
                     }
                 },
                 {
@@ -57,7 +57,7 @@
                       "description": "Charlottenstraße 2, 10969 Berlin",
                       "marker-color": "#000000",
                       "marker-size": "large",
-                      "marker-symbol": "monument"
+                      "marker-symbol": "grocery"
                     }
                 }
             ]

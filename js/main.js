@@ -17,9 +17,23 @@ $(document).ready(function() {
 		}
 	}).done(function() {
 		var map = L.mapbox.map('map', 'mapbox.streets')
-	    .setView([52.5055829, 13.3932478], 3)
-		.featureLayer.setGeoJSON(geojson);
+			.setView([52.5055829, 13.3932478], 4);
 
-		L.mapbox.styleLayer('mapbox://styles/handcoded/cimj399zn00a9cem33b5cubif').addTo(map);
+		var myLayer = L.mapbox.featureLayer();
+
+		myLayer.setGeoJSON(geojson)
+			.addTo(map);
+
+		var polyline_options = {
+	    	color: '#000000'
+		};
+
+		var polyline = L.polyline([], polyline_options).addTo(map);
+
+		myLayer.eachLayer(function(layer) {
+			polyline.addLatLng(layer.getLatLng());
+		});
+
+		// L.mapbox.styleLayer('mapbox://styles/mapbox/emerald-v8').addTo(map);
 	});
 });
