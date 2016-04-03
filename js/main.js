@@ -79,6 +79,5 @@ $(document).ready(function() {
             polyline.addLatLng(layer.getLatLng());
         });
 
-        // L.mapbox.styleLayer('mapbox://styles/mapbox/emerald-v8').addTo(map);
-    });
+        L.mapbox.styleLayer('mapbox://styles/handcoded/cimj399zn00a9cem33b5cubif').addTo(map);    });
 });
