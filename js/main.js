@@ -78,9 +78,9 @@ $(document).ready(function() {
 
         map.fitBounds([[
                 bounds._northEast.lat * 1.05,
-                bounds._northEast.lng * 1.05
+                bounds._northEast.lng * 1.0
             ], [
-                bounds._southWest.lat * 0.95,
+                bounds._southWest.lat * 0.98,
                 bounds._southWest.lng * 0.98
             ]]);
 
