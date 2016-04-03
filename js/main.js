@@ -3,7 +3,35 @@ function getURLParameter(name) {
   return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
 }
 
+/* http://stackoverflow.com/a/3150139 */
+var addEvent = function(object, type, callback) {
+    if (object == null || typeof(object) == 'undefined') return;
+    if (object.addEventListener) {
+        object.addEventListener(type, callback, false);
+    } else if (object.attachEvent) {
+        object.attachEvent("on" + type, callback);
+    } else {
+        object["on"+type] = callback;
+    }
+};
+
+function expandInfoAccordion() {
+    if ($(document).width() >= 768) {
+        $('.meta.ui.accordion .content').addClass('active');
+        $('.ui.accordion').accordion('refresh');
+    }
+}
+
 $(document).ready(function() {
+    $('.ui.accordion')
+        .accordion();
+
+    expandInfoAccordion();
+
+    addEvent(window, "resize", function(event) {
+        expandInfoAccordion();
+    });
+
     L.mapbox.accessToken = 'pk.eyJ1IjoiaGFuZGNvZGVkIiwiYSI6ImNpbWoxN2VzdDAwMGt2dW00aHVvOTNnZXMifQ.qlhvpqfP_H8e6E8hxCoCdw';
 
 	var geojson = [];

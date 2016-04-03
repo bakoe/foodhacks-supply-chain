@@ -52,6 +52,13 @@ body {
     }
 }
 
+/* Mobile and everything above */
+@media only screen and (min-width: 768px) {
+    .dropdown.icon:before {
+        display: none;
+    }
+}
+
 /* Mobile and Tablet */
 @media only screen and (max-width: 991px) {
 }
