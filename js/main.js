@@ -70,8 +70,6 @@ $(document).ready(function() {
             color: '#000000'
         };
 
-        var polyline = L.polyline([], polyline_options).addTo(map);
-
         var bounds = myLayer.getBounds();
 
         map.fitBounds([[
@@ -82,9 +80,10 @@ $(document).ready(function() {
                 bounds._southWest.lng * 0.98
             ]]);
 
+		var polyline = L.polyline([], polyline_options).addTo(map);
+
         myLayer.eachLayer(function(layer) {
             polyline.addLatLng(layer.getLatLng());
         });
-
-        L.mapbox.styleLayer('mapbox://styles/lheilmann/cimkacojh00d4d0mcf7dxylsf').addTo(map);    });
+	});
 });

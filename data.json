@@ -30,11 +30,11 @@
                     "type": "Feature",
                     "geometry": {
                       "type": "Point",
-                      "coordinates": [9.61081999999999,53.43915]
+                      "coordinates": [11.529773,53.416428]
                     },
                     "properties": {
                       "title": "pickenpack apensen GmbH",
-                      "description": "Stader Str. 41, 21641 Apensen",
+                      "description": "Lange Dorfstraße 17, 19077 Rastow",
 					  "icon": {
 						"iconUrl": "resources/images/producer.svg",
 						"iconSize": [74, 85],
@@ -48,11 +48,11 @@
                     "type": "Feature",
                     "geometry": {
                       "type": "Point",
-                      "coordinates": [13.289009999999962,52.3561]
+                      "coordinates": [11.689330,51.804920]
                     },
                     "properties": {
                       "title": "Logistikzentrum LIDL II",
-                      "description": "Märkische Allee 85, 14979 Großbeeren",
+                      "description": "Claude-Breda-Straße 7, 06406 Bernburg (Saale)",
 					  "icon": {
 						"iconUrl": "resources/images/logistic.svg",
 						"iconSize": [74, 85],
