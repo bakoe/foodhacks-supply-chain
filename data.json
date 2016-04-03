@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "name": "Elstar",
         "origin": "DE",
         "distance": "200-500 km",
         "geojson": {
