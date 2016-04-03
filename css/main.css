@@ -78,8 +78,10 @@ body {
 
 /* Small Monitor and Large Monitor */
 @media only screen and (min-width: 992px) {
+
     .info-overlay {
         padding: 2em;
+        min-height: 17em;
     }
     .product-image {
         width: 10em;

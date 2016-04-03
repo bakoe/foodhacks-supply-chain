@@ -65,6 +65,10 @@ $(document).ready(function() {
         $('.c-strain').text(productInfo.strain);
         $('.c-origin').text(productInfo.origin);
         $('.c-distance').text(productInfo.distance);
+        $('.c-image').attr({
+            'src': 'resources/images/' + productInfo.image + '_400.png',
+            'alt': productInfo.name
+        })
 
         var polyline_options = {
             color: '#000000'
