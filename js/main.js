@@ -36,7 +36,7 @@ $(document).ready(function() {
 
     var geojson = [];
     var productInfo;
-    var productId = getURLParameter('productId');
+    var productId = getURLParameter('productid');
 
     $.getJSON('data.json', function(data) {
         for (var i = 0; i < data.length; i++) {
