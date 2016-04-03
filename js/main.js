@@ -32,7 +32,7 @@ $(document).ready(function() {
         expandInfoAccordion();
     });
 
-    L.mapbox.accessToken = 'pk.eyJ1IjoiaGFuZGNvZGVkIiwiYSI6ImNpbWoxN2VzdDAwMGt2dW00aHVvOTNnZXMifQ.qlhvpqfP_H8e6E8hxCoCdw';
+    L.mapbox.accessToken = 'pk.eyJ1IjoibGhlaWxtYW5uIiwiYSI6ImNpbWozNHdlZDAwMG92dW00MmRjbW1nemsifQ.vPd3A5f_i5757K5B2hDMfw';
 
     var geojson = [];
     var productInfo;
@@ -86,5 +86,5 @@ $(document).ready(function() {
             polyline.addLatLng(layer.getLatLng());
         });
 
-        L.mapbox.styleLayer('mapbox://styles/handcoded/cimj399zn00a9cem33b5cubif').addTo(map);    });
+        L.mapbox.styleLayer('mapbox://styles/lheilmann/cimkacojh00d4d0mcf7dxylsf').addTo(map);    });
 });
