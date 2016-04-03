@@ -53,7 +53,7 @@
                       "title": "Logistic Center",
                       "description": "Märkische Allee 85, 14979 Großbeeren",
 					  "icon": {
-						"iconUrl": "resources/images/logistic.svg",
+						"iconUrl": "foodhacks-supply-chain/resources/images/logistic.svg",
 						"iconSize": [74, 85],
 						"iconAnchor": [21, 75],
 						"popupAnchor": [0, -77],
@@ -71,7 +71,7 @@
                       "title": "Grocery Store",
                       "description": "Charlottenstraße 2, 10969 Berlin",
 					  "icon": {
-						"iconUrl": "resources/images/grocery.svg",
+						"iconUrl": "foodhacks-supply-chain/resources/images/grocery.svg",
 						"iconSize": [74, 85],
 						"iconAnchor": [21, 75],
 						"popupAnchor": [0, -77],
@@ -100,7 +100,7 @@
                       "title": "Farmer",
                       "description": "Via Jakobi, 1A Bozen, IT",
 					  "icon": {
-						"iconUrl": "/resources/images/farmer.svg",
+						"iconUrl": "foodhacks-supply-chain/resources/images/farmer.svg",
 						"iconSize": [74, 85],
 						"iconAnchor": [21, 75],
 						"popupAnchor": [0, -77],
@@ -118,7 +118,7 @@
                       "title": "Producer Organisation",
                       "description": "Bozner Boden, Mitterweg 12, Bozen, IT",
 					  "icon": {
-						"iconUrl": "/resources/images/producer.svg",
+						"iconUrl": "foodhacks-supply-chain/resources/images/producer.svg",
 						"iconSize": [74, 85],
 						"iconAnchor": [21, 75],
 						"popupAnchor": [0, -77],
@@ -136,7 +136,7 @@
                       "title": "Logistic Center",
                       "description": "Max-Eyth-Straße 13, 74638 Waldenburg",
 					  "icon": {
-						"iconUrl": "/resources/images/logistic.svg",
+						"iconUrl": "foodhacks-supply-chain/resources/images/logistic.svg",
 						"iconSize": [74, 85],
 						"iconAnchor": [21, 75],
 						"popupAnchor": [0, -77],
@@ -154,7 +154,7 @@
                       "title": "Grocery Store",
                       "description": "Charlottenstraße 2, 10969 Berlin",
 					  "icon": {
-						"iconUrl": "/resources/images/grocery.svg",
+						"iconUrl": "foodhacks-supply-chain/resources/images/grocery.svg",
 						"iconSize": [74, 85],
 						"iconAnchor": [21, 75],
 						"popupAnchor": [0, -77],
