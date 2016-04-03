@@ -15,9 +15,13 @@
                     "properties": {
                       "title": "Farmer",
 					  "description": "Rutenbeck 5, 21640 Bliedersdorf",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "farm"
+					  "icon": {
+						"iconUrl": "/resources/images/farmer.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 },
                 {
@@ -29,9 +33,13 @@
                     "properties": {
                       "title": "Producer Organisation",
                       "description": "Stader Str. 41, 21641 Apensen",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "warehouse"
+					  "icon": {
+						"iconUrl": "/resources/images/producer.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 },
                 {
@@ -43,9 +51,13 @@
                     "properties": {
                       "title": "Logistic Center",
                       "description": "Märkische Allee 85, 14979 Großbeeren",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "ferry"
+					  "icon": {
+						"iconUrl": "/resources/images/logistic.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 },
                 {
@@ -57,9 +69,13 @@
                     "properties": {
                       "title": "Grocery Store",
                       "description": "Charlottenstraße 2, 10969 Berlin",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "grocery"
+					  "icon": {
+						"iconUrl": "/resources/images/grocery.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 }
             ]
@@ -82,9 +98,13 @@
                     "properties": {
                       "title": "Farmer",
                       "description": "Via Jakobi, 1A Bozen, IT",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "monument"
+					  "icon": {
+						"iconUrl": "/resources/images/farmer.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 },
                 {
@@ -96,9 +116,13 @@
                     "properties": {
                       "title": "Producer Organisation",
                       "description": "Bozner Boden, Mitterweg 12, Bozen, IT",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "monument"
+					  "icon": {
+						"iconUrl": "/resources/images/producer.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 },
                 {
@@ -110,9 +134,13 @@
                     "properties": {
                       "title": "Logistic Center",
                       "description": "Max-Eyth-Straße 13, 74638 Waldenburg",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "monument"
+					  "icon": {
+						"iconUrl": "/resources/images/logistic.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 },
                 {
@@ -124,9 +152,13 @@
                     "properties": {
                       "title": "Grocery Store",
                       "description": "Charlottenstraße 2, 10969 Berlin",
-                      "marker-color": "#000000",
-                      "marker-size": "large",
-                      "marker-symbol": "monument"
+					  "icon": {
+						"iconUrl": "/resources/images/grocery.svg",
+						"iconSize": [74, 85],
+						"iconAnchor": [21, 75],
+						"popupAnchor": [0, -77],
+						"className": "dot"
+				        }
                     }
                 }
             ]
