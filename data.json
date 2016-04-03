@@ -96,11 +96,11 @@
                     "type": "Feature",
                     "geometry": {
                       "type": "Point",
-                      "coordinates": [11.250972400000000,46.529022]
+                      "coordinates": [10.816707,45.361811]
                     },
                     "properties": {
                       "title": "VOG Societa' Agricola Cooperativa",
-                      "description": "Via Jakobi, 1A Bozen, IT",
+                      "description": "Località Pigno, 1A, 69 Villafranca di Verona VR, 1A",
 					  "icon": {
 						"iconUrl": "resources/images/farmer.svg",
 						"iconSize": [74, 85],
