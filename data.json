@@ -15,7 +15,7 @@
                       "coordinates": [9.566544399999998,53.4655171]
                     },
                     "properties": {
-                      "title": "Farmer",
+                      "title": "Cohrs GbR",
 					  "description": "Rutenbeck 5, 21640 Bliedersdorf",
 					  "icon": {
 						"iconUrl": "resources/images/farmer.svg",
@@ -33,7 +33,7 @@
                       "coordinates": [9.61081999999999,53.43915]
                     },
                     "properties": {
-                      "title": "Producer Organisation",
+                      "title": "pickenpack apensen GmbH",
                       "description": "Stader Str. 41, 21641 Apensen",
 					  "icon": {
 						"iconUrl": "resources/images/producer.svg",
@@ -51,7 +51,7 @@
                       "coordinates": [13.289009999999962,52.3561]
                     },
                     "properties": {
-                      "title": "Logistic Center",
+                      "title": "Logistikzentrum LIDL II",
                       "description": "Märkische Allee 85, 14979 Großbeeren",
 					  "icon": {
 						"iconUrl": "resources/images/logistic.svg",
@@ -69,7 +69,7 @@
                       "coordinates": [13.393173599999955,52.50523399999999]
                     },
                     "properties": {
-                      "title": "Grocery Store",
+                      "title": "Lidl",
                       "description": "Charlottenstraße 2, 10969 Berlin",
 					  "icon": {
 						"iconUrl": "resources/images/grocery.svg",
@@ -99,7 +99,7 @@
                       "coordinates": [11.250972400000000,46.529022]
                     },
                     "properties": {
-                      "title": "Farmer",
+                      "title": "VOG Societa' Agricola Cooperativa",
                       "description": "Via Jakobi, 1A Bozen, IT",
 					  "icon": {
 						"iconUrl": "resources/images/farmer.svg",
@@ -117,7 +117,7 @@
                       "coordinates": [11.37083430000000,46.4950641]
                     },
                     "properties": {
-                      "title": "Producer Organisation",
+                      "title": "Obstgenossenschaft Zwölfmalgreien",
                       "description": "Bozner Boden, Mitterweg 12, Bozen, IT",
 					  "icon": {
 						"iconUrl": "resources/images/producer.svg",
@@ -135,7 +135,7 @@
                       "coordinates": [9.665480000000000,49.19741]
                     },
                     "properties": {
-                      "title": "Logistic Center",
+                      "title": "Zentrallager Waldenburg LIDL",
                       "description": "Max-Eyth-Straße 13, 74638 Waldenburg",
 					  "icon": {
 						"iconUrl": "resources/images/logistic.svg",
@@ -153,7 +153,7 @@
                       "coordinates": [13.393173599999955,52.50523399999999]
                     },
                     "properties": {
-                      "title": "Grocery Store",
+                      "title": "Lidl",
                       "description": "Charlottenstraße 2, 10969 Berlin",
 					  "icon": {
 						"iconUrl": "resources/images/grocery.svg",
