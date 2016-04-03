@@ -58,6 +58,16 @@ $(document).ready(function() {
 
         var polyline = L.polyline([], polyline_options).addTo(map);
 
+        var bounds = myLayer.getBounds();
+
+        map.fitBounds([[
+                bounds._northEast.lat * 1.05,
+                bounds._northEast.lng * 1.05
+            ], [
+                bounds._southWest.lat * 0.95,
+                bounds._southWest.lng * 0.98
+            ]]);
+        
         myLayer.eachLayer(function(layer) {
             polyline.addLatLng(layer.getLatLng());
         });
