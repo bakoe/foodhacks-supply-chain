@@ -1,8 +1,9 @@
 [
     {
         "id": 1,
-        "name": "Elstar",
-        "origin": "DE",
+        "name": "Apple",
+        "strain": "Elstar",
+        "origin": "Germany",
         "distance": "200-500 km",
         "geojson": {
             "type": "FeatureCollection",
@@ -84,8 +85,9 @@
     },
     {
         "id": 2,
-        "name": "Braeburn",
-        "origin": "IT",
+        "name": "Apple",
+        "strain": "Braeburn",
+        "origin": "Italy",
         "distance": "900-1200 km",
         "geojson": {
             "type": "FeatureCollection",

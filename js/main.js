@@ -35,12 +35,14 @@ $(document).ready(function() {
     L.mapbox.accessToken = 'pk.eyJ1IjoiaGFuZGNvZGVkIiwiYSI6ImNpbWoxN2VzdDAwMGt2dW00aHVvOTNnZXMifQ.qlhvpqfP_H8e6E8hxCoCdw';
 
     var geojson = [];
+    var productInfo;
     var productId = getURLParameter('productId');
 
     $.getJSON('data.json', function(data) {
         for (var i = 0; i < data.length; i++) {
             if (data[i].id == productId) {
                 geojson = data[i].geojson;
+                productInfo = data[i];
             }
         }
     }).done(function() {
@@ -58,6 +60,11 @@ $(document).ready(function() {
 
 		myLayer.setGeoJSON(geojson)
 			.addTo(map);
+
+        $('.c-name').text(productInfo.name);
+        $('.c-strain').text(productInfo.strain);
+        $('.c-origin').text(productInfo.origin);
+        $('.c-distance').text(productInfo.distance);
 
         var polyline_options = {
             color: '#000000'
