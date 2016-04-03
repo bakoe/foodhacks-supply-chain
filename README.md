@@ -1,5 +1,7 @@
 # TraceYourFood
 
+![Sample QR code](https://github.com/bakoe/foodhacks-supply-chain/blob/gh-pages/static_qr_code_without_logo.jpg)
+
 ### Try it out [here](http://bakoe.github.io/foodhacks-supply-chain/?productid=2)!
 
 A prototype of a web app displaying supply chains of food products. By showing this information to customers, both producers and retailers could extend their audience and increase their sales.
